@@ -6,10 +6,6 @@
     "min_review_score": 4.0,
     "send_daily_report": true,
     "email_recipients": ["your@email.com", "colleague@email.com"],
-    "smtp": {
-        "server": "smtp.gmail.com",
-        "port": 587,
-        "email": "your-sending-email@gmail.com",
-        "password": "your-app-specific-password"
-    }
+    "sendgrid_api_key": "your-sendgrid-api-key",
+    "from_email": "your-verified-sender@yourdomain.com"
 }
